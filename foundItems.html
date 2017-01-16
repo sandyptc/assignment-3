@@ -1,0 +1,6 @@
+<ol>
+	<li ng-repeat="item in items"> 
+		{{ item.name }}
+		<button ng-click="items.splice($index,1);" class="btn btn-secondary">Don't want this one!</button>
+	</li>
+</ol>
